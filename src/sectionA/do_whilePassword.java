@@ -31,6 +31,7 @@ public class do_whilePassword {
             password = JOptionPane.showInputDialog("Incorrect password. Please enter the password:");
         }
         JOptionPane.showMessageDialog(new JFrame()  ,"Correct Password! Login Success");
+        System.exit(0);
 
     }
 
